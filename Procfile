@@ -1,0 +1,1 @@
+web: gunicorn tennis_pred_app:main
