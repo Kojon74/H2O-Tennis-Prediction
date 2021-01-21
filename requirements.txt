@@ -1,4 +1,4 @@
 numpy==1.19.5
-h2o_wave==0.10.0
+h2o_wave==0.11.0
 tensorflow-cpu==2.4.0
 uvicorn==0.13.3
