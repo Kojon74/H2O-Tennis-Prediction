@@ -1,1 +1,1 @@
-web: gunicorn tennis_pred_app:main -b $(0.0.0.0):$(10101)
+web: gunicorn tennis_pred_app:main -b 0.0.0.0:10101
