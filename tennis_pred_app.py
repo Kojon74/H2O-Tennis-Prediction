@@ -201,7 +201,3 @@ def calc_winner(q: Q):
     )
 
     show_form(q)
-
-
-if __name__ == "__main__":
-    serve(q)
