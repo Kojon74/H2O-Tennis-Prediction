@@ -1,0 +1,12 @@
+env/
+
+clean_data/
+
+.vscode/
+
+__pycache__/
+
+.DS_Store
+
+h2o_wave.state
+
