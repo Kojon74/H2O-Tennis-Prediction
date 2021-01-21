@@ -1,1 +1,1 @@
-web: uvicorn tennis_pred_app:main
+worker: uvicorn tennis_pred_app:main
