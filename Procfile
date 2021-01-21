@@ -1,1 +1,1 @@
-web: gunicorn tennis_pred_app:main --host 0.0.0.0 --port 10101
+web: gunicorn tennis_pred_app:main -b $(0.0.0.0):$(10101)
