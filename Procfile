@@ -1,1 +1,1 @@
-web: uvicorn tennis_pred_app:serve --port 64065
+web: uvicorn tennis_pred_app:main --host 0.0.0.0 --port 64065
