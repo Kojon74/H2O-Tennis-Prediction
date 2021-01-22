@@ -1,1 +1,2 @@
-web: uvicorn tennis_pred_app:main --host 0.0.0.0 --port 64065
+worker: ./waved -listen 0.0.0.0:10101
+web: uvicorn tennis_pred_app:main --host 0.0.0.0 --port 10101
