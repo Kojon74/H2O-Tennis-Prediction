@@ -1,1 +1,1 @@
-web: uvicorn tennis_pred_app:main --host $HOST --port $PORT
+web: uvicorn tennis_pred_app:main --host 0.0.0.0 --port $PORT
