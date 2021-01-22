@@ -1,2 +1,2 @@
 worker: ./waved -listen 0.0.0.0:10101
-web: uvicorn tennis_pred_app:main --host 0.0.0.0 --port $PATH
+web: uvicorn tennis_pred_app:main --host 0.0.0.0 --port $PORT
